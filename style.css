@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -8,4 +16,15 @@ html {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+.header {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+.logo-box {
+  margin-bottom: 1rem;
 }
