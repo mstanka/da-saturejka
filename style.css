@@ -13,6 +13,12 @@ html {
   font-size: 15px;
 }
 
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffefef;
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
@@ -21,10 +27,49 @@ h2 {
 .header {
   text-align: center;
   max-width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 5rem auto;
   font-size: 1.4rem;
 }
 
 .logo-box {
   margin-bottom: 1rem;
+}
+
+.main {
+  background-color: #fff;
+  padding: 4rem;
+}
+
+.section__intro {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.intro__title {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.features__img-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+
+.features__img {
+  display: inline-block;
+  max-width: 250px;
+  width: 100%;
+}
+
+.features__text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__text > p {
+  padding-bottom: 2rem;
+  max-width: 50%;
 }
