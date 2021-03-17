@@ -73,3 +73,45 @@ h2 {
   padding-bottom: 2rem;
   max-width: 50%;
 }
+
+.menu__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__img-box {
+  background-color: #fff;
+}
+
+.menu__img {
+  max-width: 350px;
+}
+
+.menu__text-box {
+  padding: 0 3rem;
+}
+
+.menu__box:nth-child(2) > .menu__img-box {
+  order: 2;
+}
+
+.menu__box:nth-child(2) > .menu__text-box {
+  text-align: right;
+}
+
+.menu__text {
+  padding: 1.5rem 0;
+}
+
+.menu__cta {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #ffefef;
+}
