@@ -116,3 +116,9 @@ h2 {
   background-color: #ffefef;
   color: inherit;
 }
+
+.footer {
+  text-align: center;
+  margin: 5rem auto;
+  font-size: 0.9rem;
+}
