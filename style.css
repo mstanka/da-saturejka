@@ -115,6 +115,13 @@ h2 {
   padding: 1rem 2rem;
   background-color: #ffefef;
   color: inherit;
+  transition: background-color .5s;
+}
+
+.menu__cta:hover,
+.menu__cta:active,
+.menu__cta:focus {
+  background-color: rgba(245, 212, 212, 0.8);
 }
 
 .footer {
